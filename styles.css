@@ -1,0 +1,188 @@
+* {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+    width: 100vw;
+    height: 15vh;
+    color: white;
+    font-size: 700;
+    line-height: 150px;
+}
+
+h2 {
+    display: inline-block;
+    color: #EEB630;
+    font-size: 28px;
+    margin-left: 35px;
+    text-decoration: underline;
+}
+
+a {
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.button-login {
+    width: 250px;
+    height: 62px;
+    background: #EEB630;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    transition: ease-out 0.4s;
+    box-shadow: inset 0 0 0 0 #005500;
+    outline: none;
+}
+
+main {
+    background-color: #EEB630;
+    width: 100vw;
+    height: 85vh;
+    position: absolute;
+    display: inline-block;
+    padding: 25px;
+}
+
+h1 {
+    position: relative;
+    font-size: 70px;
+    line-height: 80px;
+    color: #000000;
+    width: 60px;
+    top: 25%;
+    left: 50px;
+}
+
+p {
+    width: 400px;
+    height: 100px;
+    top: 28%;
+    left: 170px;
+    position: relative;
+}
+
+img {
+    width: 500px;
+    position: fixed;
+    left: 45%;
+    display: inline-block;
+    top: auto;
+}
+
+.button-façaparte {
+    width: 250px;
+    height: 80px;
+    border-radius: 80px;
+    margin-left: 215px;
+    background: #000000;
+    color: #EEB630;
+    font-size: 18px;
+    margin-top: 330px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-façaparte:hover {
+    opacity: 0.4;
+    box-shadow: inset 250px 0 0 0 #EEB630;
+    color: #000000;
+}
+
+.button-façaparte:active {
+    opacity: 0.8;
+}
+
+
+.button-login:hover {
+    opacity: 0.4;
+    box-shadow: inset 250px 0 0 0 #ffffff;
+    color: #000000;
+}
+
+.button-login:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+    a {
+        display: none;
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+        width: 200vw;
+        height: 10vh;
+    }
+
+    .button-login {
+        width: 150px;
+        height: 35px;
+    }
+
+    h2 {
+        width: 150px;
+        height: 35px; 
+    }
+
+
+    main {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 200vw;
+        height: 200vh;
+    }
+
+    h1 {
+        margin: 10px;
+        padding: 0;
+        position: static;
+        width: 40px;
+        line-height: 2;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 7%;
+        position: static;
+        height: 0px;
+        font-size: 20px;
+        width: 350px;
+        height: 50px;
+        text-align: center;
+    }
+
+    img{
+        width: 400px;
+        position: static;
+        display: block;
+        margin-left: 50px;
+
+    }
+
+    .button-façaparte{
+         width: 220px;
+        height: 50px;
+        text-align: justify;
+        display: block;
+        margin-left: 130px;
+        margin-top: 230px;
+
+    }
+    }
+
+    
