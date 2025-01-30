@@ -12,4 +12,4 @@
 
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt=css-logo/>
 
-MATHEUS HENRIQUE :wave: [Linkedin](www.linkedin.com/in/matheus-azevedo-0744b7346)
+MATHEUS HENRIQUE :wave: <a href="https://www.linkedin.com/in/matheus-azevedo-0744b7346/">Meu Linkedin</a>
